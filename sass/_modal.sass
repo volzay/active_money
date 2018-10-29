@@ -1,0 +1,167 @@
+.overlay
+	position: fixed
+	display: none
+	top: 0
+	width: 100%
+	height: 100%
+	z-index: 101
+	//background-color: rgba(0, 0, 0, .7)
+	background: url(../img/background-main-3.png) center no-repeat
+	background-size: cover
+	.popup
+		position: fixed
+		left: 40%
+		top: 20px
+		width: 310px
+		//transform: translateX(-50%)
+		&-close
+			position: absolute
+			right: -20px
+			top: 80px
+			font-size: 35px
+			color: #fff
+			font-weight: 300
+			cursor: pointer
+		&-form
+			label
+				margin-top: 15px
+				margin-bottom: 0//5px
+				padding-top: 0
+				//width: 205px
+				//height: 16px
+				font-family: "ProximaNova"
+				font-size: 23px
+				font-weight: 700
+				color: #fff
+				line-height: 24px
+				text-transform: uppercase
+			p
+				margin-top: 9px
+				font-family: "ProximaNova"
+				font-size: 16px
+				font-weight: 400
+				color: #fff
+
+
+			
+			&-header
+				margin-top: 82px
+				margin-right: -31px
+				padding-top: 20px
+				width: 350px
+				height: 310px
+				float: right
+				font-family: "ProximaNova"
+				text-align: center
+				border: 1px solid #fff
+				//padding: 0
+				//font-size: 30px
+				//font-weight: 400
+				//line-height: 27px
+				//text-align: center
+			&__label
+				display: block
+				margin-top: 23px
+				font-size: 20px
+				font-weight: 300
+				line-height: 30px
+			&-input-top
+				margin-top: 5px
+				padding: 12px 54px//
+				width: 290px
+				height: 49px
+				font-family: 'ProximaNova'
+				font-size: 14px
+				font-weight: 300
+				color: #606060
+				background-color: #fff
+				outline: none
+				border: none
+				border-radius: 28px
+				cursor: pointer
+				background: #fff url(../img/user_icon.png) 9% center no-repeat
+			&-input-bottom
+				margin-top: 18px
+				padding: 12px 54px//
+				width: 290px
+				height: 49px
+				font-family: 'ProximaNova'
+				font-size: 14px
+				font-weight: 300
+				color: #606060
+				background-color: #fff
+				outline: none
+				border: none
+				border-radius: 28px
+				background: #fff url(../img/phone_icon.png) 9% center no-repeat
+				cursor: pointer
+			&__btn
+				margin-top: 30px
+				background-color: #ffdc38
+				width: 210px
+				height: 55px
+				font-size: 16px
+				border-radius: 28px
+				line-height: 25.47px
+				font-family: 'ProximaNova'
+				font-weight: 700
+				color: #202020
+				outline: none
+				border: none
+				box-shadow: 0 0 13px rgba(0, 0, 0, 0.19)
+				text-align: center
+				&:hover
+					filter: drop-shadow(0px 0px 5px #fff)
+					background-color: #ffbb38
+					cursor: pointer
+
+.overlay-thanks
+	position: fixed
+	top: 0
+	left: 0
+	display: none
+	width: 100%
+	height: 100%
+	text-align: center
+	z-index: 7
+	background-color: rgba(0, 0, 0, 0.8)
+	color: #fff
+	.popup
+		position: fixed
+		padding: 20px
+		left: 50%
+		top: 50%
+		max-width: 800px
+		background: url(../img/background-main-3.png) center no-repeat
+		transform: translate(-50%, -50%)
+		border-radius: 10px
+		&-close
+			position: absolute
+			right: -20px
+			top: -30px
+			font-size: 35px
+			color: #fff
+			font-weight: 300
+			cursor: pointer
+		&__title
+			display: block
+			width: 100%
+			min-height: 40px
+			margin: 0
+			color: #fff
+			line-height: 25px
+			font-size: 24px
+			font-weight: 500
+			text-align: center
+		&__subtitle
+			display: block
+			width: 100%
+			min-height: 40px
+			margin: 0
+			color: #fff
+			line-height: 25px
+			font-size: 20px
+			font-weight: 500
+			text-align: center
+
+
